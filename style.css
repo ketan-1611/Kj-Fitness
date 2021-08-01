@@ -1,0 +1,312 @@
+/* span{
+    color:red;
+}
+h3{
+    color:brown;
+}
+.header{
+    display: flex;
+    
+}
+.name{
+    margin-right: 270px;
+    align-items: center;
+    justify-content: center;
+} */
+*{ 
+    margin: 0;
+    padding: 0;
+} 
+ 
+/* navbar css */
+.container{ 
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;  
+    
+} 
+
+.navbar{  
+    color: rgb(12, 11, 11);
+    background-color: rgb(207, 194, 194);  
+    letter-spacing: 5px;
+    margin-bottom:8px;
+} 
+.item{ 
+    float: left;
+    width: auto;
+    padding: 9px 25px;
+    display: block;
+} 
+.right{ 
+    float: right;
+}  
+ .right a{
+     text-decoration: none;
+ }
+ #color{
+     text-decoration: none;
+ }
+/* header css */
+.header1{ 
+    max-width: 1600px;
+    min-width: 500px; 
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}  
+ 
+
+/* about css  */
+
+.content{ 
+    /* max-width: 1100px; */
+    width: 100%;
+}  
+ 
+.content1{ 
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+.image{ 
+    max-width: 100%;
+    height: auto;  
+    vertical-align: middle;
+}  
+ 
+.large{ 
+    padding: 12px 12px;
+    opacity: 0.6;
+    position: relative;
+    top: 0;
+    bottom: 0;
+}  
+
+ 
+.about1{ 
+    width: 50%;
+    padding: 12px 24px;
+     float: left; 
+} 
+.about1 img{ 
+    width: 600px;
+    height: 600px;
+}   
+ 
+/* menu css */
+ 
+.menu1{ 
+    padding: 12px 24px; 
+    width: 50%;
+    float: left;
+
+}  
+.menu1 img{ 
+    opacity: 0.75;
+    border-radius: 4px;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+ 
+.w3-center{ 
+    font-weight: 400;
+    margin: 10px;
+} 
+ 
+/* contact css */
+ 
+.input1{ 
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding: 8px 12px; 
+    margin: 12px 12px;
+    display: block;
+    border-bottom: 1px solid grey;
+    width: 100%;
+}  
+ 
+.btn{ 
+    color: black;
+    background-color: lightgray;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding:  8px 16px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+} 
+.btn:hover{ 
+    background-color: purple;
+    color: white;
+}
+footer{ 
+    text-align: center; 
+    justify-content: center;
+    background-color: lightgray;
+    padding: 32px;
+}
+.content1{
+    display: flex;
+}
+#about2{
+    margin-left:90px;
+    margin-right:10px;
+}
+.content2{
+    display: flex;
+}
+.content4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 12px; 
+    margin-top: 24px;
+}
+#contact1{
+    padding-left:23px;
+    margin-bottom:12px;
+    /* margin-top: 12px; */
+}
+#contact2{
+    margin-top:12px;
+}
+.menu9{
+    text-align: center;
+    margin-top:10px;
+}
+.menu5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right:20px;
+}
+.box{
+    border: 2px solid rgb(197, 4, 245);  
+   padding: 30px; 
+   margin: 25px 6px;
+   border-radius: 28px; 
+   /* background: rgb(241, 228, 228) ;  */
+   margin-bottom: 34px;
+}
+.box img{
+    height: 120px; 
+    margin: auto;
+    display: block;
+    color: blue;
+}
+.box h3,p{
+    text-align: center;
+}
+.large h1,p{
+    text-align: center; 
+}
+#button{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin-left: 550px;
+    margin-top: 20px;
+    font-size: 1rem; 
+    border-radius: 10px; 
+    cursor: pointer;
+}
+.header1 img{
+    z-index:20;
+}
+.header1{
+    margin-top:-20px;
+    
+}
+#button1{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: rgb(150, 75, 236);
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor:pointer;;
+}
+#image{
+    height:36px;
+    width:52px;
+}  
+
+.container10{
+    width: 100%; 
+    padding: 34px; 
+    margin: auto; 
+    background: url('bg.jpg') no-repeat center center/cover;  
+    opacity: 0.8;
+
+}
+
+.container10 h1 {
+    text-align: center;
+    font-family: 'Sriracha', cursive;
+    font-size: 40px;  
+    color: white;
+     /* margin-top: 12px;  */
+}
+
+.container10 p{
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Sriracha', cursive;  
+    color: white;
+     /* margin-top: 12px;  */ 
+     
+} 
+
+input, textarea{
+    
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+    font-size: 16px;
+    width: 80%;
+    margin: 11px 0px;
+    padding: 7px;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn{
+    color: white;
+    background: purple;
+    padding: 8px 12px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.bg{
+    width: 100%; 
+    height: 100%; 
+    margin-top: 200px;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.6;
+}
+.submitMsg{ 
+    color: green;
+} 
+
+/* .bg{ 
+    width: 100%;
+    height: 100%; 
+    margin-top: 150px;
+} */   
+
+
+#submit{ 
+    color: rgb(56, 250, 56);
+}
